@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(https://www.espectacular.com.ar/u/fotografias/m/2023/7/28/f1280x720-51448_183123_5050.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+ul {
+    background-color: #f6d2a0;
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 30px;
+
+}
+
+a {
+    margin: 100px;
+    text-decoration: none;
+    color: #512c2b;
+}
+
+a:hover {
+    color: #68293d;
+    cursor: pointer;
+    text-decoration-line: underline;
+    color: #f1827a;
+}
+
+.titulo {
+    margin: auto;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 30px;
+    color: white;
+    width: 50%;
+    text-shadow: 0 0 10px #f1827a, 0 0 25px #f1827a, 0 0 50px #f1827a;
+}
+
+.contenedorcalculadora {
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #f2b48a9f;
+    box-sizing: border-box;
+    width: 40%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+
+.pasos {
+    color: #68293d;
+    padding: 20px;
+}
+
+.pasocalculadora {
+    color: #68293d;
+
+}
+
+.monedaextranjera input {
+    color: #f2b48a;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 20%;
+    height: 40px;
+    background-color: #bc5761;
+    font-size: 20px;
+    border-radius: 40px;
+    border-color: #68293d;
+    margin-top: 40px;
+}
+
+.contenedorcalculadora input:hover {
+    background-color: #f1827a;
+    color: #68293d;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.60s;
+}
+
+.container {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #bc5761cb;
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container h3 {
+    text-align: center;
+    color: #68293d;
+    font-size: 30px;
+}
+
+.container p {
+    color: #f6d2a0;
+    font-size: 25px;
+    text-align: center;
+}
+
+.segundaparte input {
+    color: #000000;
+    width: 60%;
+    height: 30px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    border-color: #68293d;
+    padding-left: 20px;
+    background-color: #f1827a;
+}
+
+/* CONTACTO */
+
+.newsletter {
+    background-image: url(./imagenes/583187.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 500px;
+}
+
+h4{
+    background-color: #bc5761;
+    width: 500px;
+    margin: auto;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #f1827a, 0 0 25px #f1827a, 0 0 50px #f1827a;
+}
+
+
+.newsletter h1 {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #f1827a, 0 0 25px #f1827a, 0 0 50px #f1827a;
+}
+
+form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+form input {
+    width: 35%;
+    height: 35px;
+    background-color: #f1827a;
+    font-size: 15px;
+}
+
+.nombredeusuario {
+    margin: 50px;
+}
+
+.emaildeusuario {
+    margin: 50px;
+
+}
+
+.enviar {
+    margin: 50px;
+    width: 8%;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+label {
+    border-radius: 20px;
+    background-color: #bc5761;
+    width: 300px;
+ 
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    font-weight: 900;
+    text-shadow: 0 0 10px white;
+}
+
+.container_ {
+    color: #ffffff;
+    text-align: center;
+    background-color: #68293d;
+}

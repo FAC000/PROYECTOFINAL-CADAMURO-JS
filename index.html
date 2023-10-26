@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CONVERTIDORA DE DIVISAS</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <nav>
+        <ul>
+            <li>
+                <a href="./index.html">inicio</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="titular">
+        <h1 class="titulo">BIENVENIDO A TU CONVERTIDORA EN PESOS ARG</h1>
+    </div>
+    <div class="contenedorcalculadora">
+        <div class="segundaparte">
+            <h1 class="pasos"> 1ER PASO:</h1>
+            <h2 class="pasocalculadora">INGRESA TU MONTO EN PESOS A CONVERTIR</h2>
+            <input type="number" min="0" name="ingresadordepesos" id="contadordepesos" placeholder="$ARG">
+        </div>
+
+        <div class="monedaextranjera">
+            <h1 class="pasos"> 2DO PASO: </h1>
+            <h2 class="pasocalculadora">INGRESA TU TIPO DE MONEDA A CONVERTIR</h2>
+            <input id="botondolar" type="button" value="DOLAR">
+            <input id="botoneuro" type="button" value="EURO">
+        </div>
+    </div>
+
+<div id="cotizaciones"></div>
+
+    <div class="newsletter">
+        <h1>queres subscribirte a nuestro newsletter?</h1>
+
+        <form id="formulario">
+            <div class="nombredeusuario">
+                <label for="nombre de usuario">nombre de usuario</label>
+            <input class="nombre" id="nombre" type="text" placeholder="NOMBRE" >
+        </div>
+        <div class="emaildelusuario">
+            <label for="email">email</label>
+            <input class="email" id="email" type="email" placeholder="EMAIL" required="">
+            
+        </div>
+        <div class="enviarformulario">
+            <input class="enviar" id="enviar" type="submit" value="Enviar">
+        </div>
+        <div id="enviando"></div>
+        </form>
+        
+    </div>
+
+    <div class="Fechadeactualizacion"></div>
+
     <script src="/main.js"></script>
+
 </body>
+
 </html>
