@@ -68,12 +68,7 @@ fetch("https://dolarapi.com/v1/cotizaciones/eur")
     })
 
 
-// CODIGO INFORMACION DEL TIPO DE CAMBIO
-
-
-
 // CODIGO FORMULARIO
-
 
 
 const nombre = document.getElementById("nombre")
@@ -124,7 +119,7 @@ form.addEventListener("submit", e => {
 
 // API 
 
-fetch("https://dolarapi.com/v1/dolare")
+fetch("https://dolarapi.com/v1/dolares")
     .then(response => response.json())
     .then((data) => {
         console.log(data)
@@ -164,4 +159,3 @@ const actualizacion = new Date()
 let container_ = document.createElement("div");
 container_.innerHTML = `<h3> ULTIMA FECHA DE ACTUALIZACION ${actualizacion}</h3>`;
 document.body.appendChild(container_).classList.add("container_");
-
