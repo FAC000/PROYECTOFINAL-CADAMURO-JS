@@ -6,26 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONVERTIDORA DE DIVISAS</title>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 
 <body>
 
     <nav>
-        <ul>
-            <li>
-                <a href="./index.html">inicio</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="titular">
         <h1 class="titulo">BIENVENIDO A TU CONVERTIDORA EN PESOS ARG</h1>
-    </div>
+    </nav>
+   
     <div class="contenedorcalculadora">
         <div class="segundaparte">
             <h1 class="pasos"> 1ER PASO:</h1>
             <h2 class="pasocalculadora">INGRESA TU MONTO EN PESOS A CONVERTIR</h2>
-            <input type="number" min="0" name="ingresadordepesos" id="contadordepesos" placeholder="$ARG">
+            <input  type="number" min="0" name="ingresadordepesos" id="contadordepesos" placeholder="$ARG">
         </div>
 
         <div class="monedaextranjera">
@@ -41,28 +37,37 @@
     <div class="newsletter">
         <h1>queres subscribirte a nuestro newsletter?</h1>
 
-        <form id="formulario">
+        <form action="" method="post" id="formulario">
             <div class="nombredeusuario">
                 <label for="nombre de usuario">nombre de usuario</label>
-            <input class="nombre" id="nombre" type="text" placeholder="NOMBRE" >
+            <input class="nombre" id="nombre" type="text" placeholder="NOMBRE" required >
         </div>
         <div class="emaildelusuario">
             <label for="email">email</label>
-            <input class="email" id="email" type="email" placeholder="EMAIL" required="">
+            <input class="email" id="email" type="email" placeholder="EMAIL" required>
             
         </div>
         <div class="enviarformulario">
             <input class="enviar" id="enviar" type="submit" value="Enviar">
         </div>
-        <div id="enviando"></div>
+        <div id="warnings"></div>
         </form>
-        
     </div>
 
-    <div class="Fechadeactualizacion"></div>
+    <div id="api">
+        <h1 class="titulo">TIPOS DE DOLAR</h1>
+    </div>
 
+    <div id="monedas">
+    </div>
+
+    <div id="fecha"></div>
+    
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="/main.js"></script>
 
+    
 </body>
 
 </html>

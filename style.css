@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@
 
 
 body {
-    background-image: url(https://www.espectacular.com.ar/u/fotografias/m/2023/7/28/f1280x720-51448_183123_5050.jpg);
+    background-image: url(https://4kwallpapers.com/images/wallpapers/ios-13-stock-ipados-red-black-background-amoled-ipad-hd-5120x2880-792.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -14,7 +16,7 @@ body {
 }
 
 ul {
-    background-color: #f6d2a0;
+    background-color: #e34c15;
     text-align: center;
     list-style: none;
     font-size: 20px;
@@ -23,18 +25,6 @@ ul {
 
 }
 
-a {
-    margin: 100px;
-    text-decoration: none;
-    color: #512c2b;
-}
-
-a:hover {
-    color: #68293d;
-    cursor: pointer;
-    text-decoration-line: underline;
-    color: #f1827a;
-}
 
 .titulo {
     margin: auto;
@@ -43,7 +33,7 @@ a:hover {
     font-size: 30px;
     text-transform: uppercase;
     padding: 30px;
-    color: white;
+    color: #f8efb2;
     width: 50%;
     text-shadow: 0 0 10px #f1827a, 0 0 25px #f1827a, 0 0 50px #f1827a;
 }
@@ -53,42 +43,45 @@ a:hover {
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
-    background-color: #f2b48a9f;
-    box-sizing: border-box;
-    width: 40%;
+    background-color: #f8efb257;
+    width: 100%;
     height: 100%;
-    border-radius: 20px;
+
 }
 
 
-
 .pasos {
-    color: #68293d;
+    color: #f8efea;
     padding: 20px;
 }
 
 .pasocalculadora {
-    color: #68293d;
+    color: #efc562;
 
 }
 
+
 .monedaextranjera input {
-    color: #f2b48a;
+    color: #e34c15;
     margin-bottom: 20px;
     margin-left: 30px;
     margin-right: 30px;
     width: 20%;
     height: 40px;
-    background-color: #bc5761;
+    background-color: #f8efb2;
     font-size: 20px;
     border-radius: 40px;
-    border-color: #68293d;
+    border-color: #e38615;
     margin-top: 40px;
 }
 
+div:where(.swal2-container) .swal2-html-container {
+font-size: 30px;
+}
+
 .contenedorcalculadora input:hover {
-    background-color: #f1827a;
-    color: #68293d;
+    background-color: #efc562;
+    color: #e34c15;
     cursor: pointer;
     transform: scale(1.05);
     transition: 0.60s;
@@ -97,8 +90,8 @@ a:hover {
 .container {
     margin: auto;
     margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: #bc5761cb;
+    margin-bottom: 100px;
+    background-color: #f8efb2;
     width: 30%;
     height: 100%;
     border-radius: 10px;
@@ -107,33 +100,33 @@ a:hover {
 
 .container h3 {
     text-align: center;
-    color: #68293d;
+    color: #e34c15;
     font-size: 30px;
 }
 
 .container p {
-    color: #f6d2a0;
+    color: #e38615;
     font-size: 25px;
     text-align: center;
 }
 
 .segundaparte input {
-    color: #000000;
+    color: #e34c15;
     width: 60%;
     height: 30px;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
     font-size: 20px;
-    border-color: #68293d;
+    border-color: #efc562;
     padding-left: 20px;
-    background-color: #f1827a;
+    background-color: #efc562;
 }
 
 /* CONTACTO */
 
 .newsletter {
-    background-image: url(./imagenes/583187.jpg);
+    background-image: url(https://cdn.dribbble.com/userupload/10404376/file/original-41ec0555bc6bbe1ad4419797fc6a361a.jpg?resize=752x);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -141,14 +134,13 @@ a:hover {
     margin-top: 50px;
     margin-bottom: 100px;
     width: 100%;
-    height: 500px;
+    height: 550px;
 }
 
-h4{
-    background-color: #bc5761;
+h4 {
     width: 500px;
     margin: auto;
-    color: white;
+    color: #f8efb2;
     text-transform: uppercase;
     text-shadow: 0 0 10px #f1827a, 0 0 25px #f1827a, 0 0 50px #f1827a;
 }
@@ -157,7 +149,7 @@ h4{
 .newsletter h1 {
     padding-top: 50px;
     text-align: center;
-    color: white;
+    color: #f8efb2;
     text-transform: uppercase;
     text-shadow: 0 0 10px #f1827a, 0 0 25px #f1827a, 0 0 50px #f1827a;
 }
@@ -170,9 +162,11 @@ form {
 form input {
     width: 35%;
     height: 35px;
-    background-color: #f1827a;
+    background-color: #efc562;
     font-size: 15px;
 }
+
+
 
 .nombredeusuario {
     margin: 50px;
@@ -192,21 +186,62 @@ form input {
 
 label {
     border-radius: 20px;
-    background-color: #bc5761;
     width: 300px;
- 
-    color: white;
+    color: #efc562;
     text-transform: uppercase;
     font-size: 20px;
     display: block;
     margin: auto;
     margin-bottom: 20px;
     font-weight: 900;
-    text-shadow: 0 0 10px white;
+
+}
+
+.containerapi {
+    text-transform: uppercase;
+    color: #f8efb2;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    background-color: #f1827a;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    gap: 20px;
+    border: 1px solid #f8efb2 ;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+
+
+.monedasdiv{
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #e34c15ba;
+    width: 100%;
+    height: 200px;
+}
+
+
+.monedasdiv p {
+  color: #efc562;
+  font-size: 25px;
+  padding-top: 40px;
+  font-weight: 900;
+  
 }
 
 .container_ {
-    color: #ffffff;
+    color: #f8efb2;
     text-align: center;
-    background-color: #68293d;
+    background-color: #e34c15;
+    margin-top: 100px;
+    
 }
+
